@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": "12000.89"
+    },
+    {
+      "id": 3,
+      "name": "Samsung S20+ Plus Ultra",
+      "price": "7559.99"
+    },
+    {
+      "name": "Geladeira",
+      "price": 1899.99,
+      "id": 4
+    }
+  ],
+  "carros": [
+    {
+      "id": 1,
+      "marca": "Toyota",
+      "modelo": "Conversível",
+      "versao": "Top de Linha",
+      "preco": 99999.89,
+      "cor": "Preto",
+      "alarme": true,
+      "airbag": true,
+      "teto_solar": true
+    },
+    {
+      "id": 2,
+      "marca": "Ford",
+      "modelo": "Sedan",
+      "versao": "Antigo",
+      "preco": 69999.89,
+      "cor": "Cinza",
+      "alarme": false,
+      "airbag": true,
+      "teto_solar": false
+    }
+  ]
+}
