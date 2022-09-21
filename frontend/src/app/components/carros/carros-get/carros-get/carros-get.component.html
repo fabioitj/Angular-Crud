@@ -40,7 +40,7 @@
                     edit
                 </i>
             </a>
-            <a routerLink="/carros/delete/{{row.id}}" class="delete">
+            <a (click)="openDialogDelete(row.id)" class="delete">
                 <i class="material-icons">
                     delete
                 </i>

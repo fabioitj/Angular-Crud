@@ -6,3 +6,11 @@ form{
 button {
     margin-right: 15px;
 }
+
+.statusCheckboxes{
+    margin-bottom: 20px;
+}
+
+.example-margin{
+    margin-right: 10px;
+}

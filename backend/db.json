@@ -18,36 +18,26 @@
   ],
   "carros": [
     {
-      "id": 1,
-      "marca": "Toyota",
-      "modelo": "Conversível",
-      "versao": "Top de Linha",
-      "preco": 99999.89,
-      "cor": "Preto"
-    },
-    {
-      "id": 2,
       "marca": "Ford",
-      "modelo": "Sedan",
-      "versao": "Antigo",
-      "preco": 69999.89,
-      "cor": "Cinza"
+      "modelo": "1233",
+      "versao": "321",
+      "preco": "123",
+      "cor": "Preto",
+      "alarme": true,
+      "airbag": true,
+      "teto_solar": true,
+      "id": 1
     },
     {
-      "marca": "Nissan",
-      "modelo": "Sedan",
-      "versao": "192",
-      "preco": "199.99",
-      "cor": "Cinza",
-      "id": 4
-    },
-    {
-      "marca": "Wolksvagem",
+      "marca": "Toyota",
       "modelo": "123",
       "versao": "123",
-      "preco": "OI",
-      "cor": "Preto",
-      "id": 5
+      "preco": "123321",
+      "cor": "Cinza",
+      "alarme": true,
+      "airbag": false,
+      "teto_solar": true,
+      "id": 3
     }
   ]
 }

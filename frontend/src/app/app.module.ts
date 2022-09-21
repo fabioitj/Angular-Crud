@@ -25,13 +25,14 @@ import { MatTableModule } from "@angular/material/table";
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
-import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { CarrosCrudComponent } from './views/carros-crud/carros-crud/carros-crud.component';
 import { CarrosGetComponent } from './components/carros/carros-get/carros-get/carros-get.component';
 import { CarrosUpdateComponent } from './components/carros/carros-update/carros-update/carros-update.component';
 import { CarrosCreateComponent } from './components/carros/carros-create/carros-create/carros-create.component';
-import { CarrosDeleteComponent } from './components/carros/carros-delete/carros-delete/carros-delete.component';
 import { MatSelectModule } from '@angular/material/select';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatDialogModule } from '@angular/material/dialog';
+import { DialogConfigComponent } from './components/dialogs/dialog-config/dialog-config.component';
 
 @NgModule({
   declarations: [
@@ -45,12 +46,11 @@ import { MatSelectModule } from '@angular/material/select';
     ProductCreateComponent,
     ProductGetComponent,
     ProductUpdateComponent,
-    ProductDeleteComponent,
     CarrosCrudComponent,
     CarrosGetComponent,
     CarrosUpdateComponent,
     CarrosCreateComponent,
-    CarrosDeleteComponent
+    DialogConfigComponent
   ],
   imports: [
     BrowserModule,
@@ -69,7 +69,9 @@ import { MatSelectModule } from '@angular/material/select';
     MatSelectModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatCheckboxModule,
+    MatDialogModule
   ],
   providers: [
   ],

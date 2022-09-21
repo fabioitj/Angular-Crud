@@ -37,6 +37,12 @@
                 <mat-option value="Amarelo">Amarelo</mat-option>
             </mat-select>    
         </mat-form-field>
+
+        <div class="statusCheckboxes">
+            <mat-checkbox class="example-margin" [(ngModel)]="carro.alarme" name="alarme">Alarme</mat-checkbox>
+            <mat-checkbox class="example-margin" [(ngModel)]="carro.airbag" name="airbag">AirBag</mat-checkbox>
+            <mat-checkbox class="example-margin" [(ngModel)]="carro.teto_solar" name="teto_solar">Teto Solar</mat-checkbox>
+        </div>
     </form>
     <button mat-raised-button color="primary" (click)="updateCarro()">
         Alterar

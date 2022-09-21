@@ -17,15 +17,15 @@
         <mat-form-field>
             <input matInput placeholder="Modelo" name="modelo" [(ngModel)]="carro.modelo">
         </mat-form-field>
-        
+
         <mat-form-field>
             <input matInput placeholder="Versão" name="versao" [(ngModel)]="carro.versao">
         </mat-form-field>
-        
+
         <mat-form-field>
             <input matInput placeholder="Preço (R$)" name="preco" [(ngModel)]="carro.preco">
         </mat-form-field>
-        
+
         <mat-form-field>
             <mat-label>Selecione uma opção</mat-label>
             <mat-select name="cor" [(value)]="carro.cor" [(ngModel)]="carro.cor">
@@ -35,8 +35,14 @@
                 <mat-option value="Azul">Azul</mat-option>
                 <mat-option value="Vermelho">Vermelho</mat-option>
                 <mat-option value="Amarelo">Amarelo</mat-option>
-            </mat-select>    
+            </mat-select>
         </mat-form-field>
+
+        <div class="statusCheckboxes">
+            <mat-checkbox class="example-margin" [(ngModel)]="carro.alarme" name="alarme">Alarme</mat-checkbox>
+            <mat-checkbox class="example-margin" [(ngModel)]="carro.airbag" name="airbag">AirBag</mat-checkbox>
+            <mat-checkbox class="example-margin" [(ngModel)]="carro.teto_solar" name="teto_solar">Teto Solar</mat-checkbox>
+        </div>
     </form>
     <button mat-raised-button color="primary" (click)="createCarro()">
         Criar

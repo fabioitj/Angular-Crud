@@ -15,7 +15,10 @@ export class CarrosUpdateComponent implements OnInit {
     modelo: '',
     versao: '',
     preco: null,
-    cor: ''
+    cor: '',
+    alarme: false,
+    airbag: false,
+    teto_solar: false
   };
 
   constructor(private carroService: CarrosService, private router: Router, private route: ActivatedRoute) { }

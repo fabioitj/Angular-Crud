@@ -4,8 +4,8 @@ export interface Carro {
     modelo: string,
     versao: string,
     preco: number | null,
-    cor: string
-    // alarme: boolean,
-    // airbag: boolean,
-    // teto_solar: boolean
+    cor: string,
+    alarme: boolean,
+    airbag: boolean,
+    teto_solar: boolean
 };
