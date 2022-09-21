@@ -7,19 +7,19 @@
       </ng-container>
   
       <!-- Name Column -->
-      <ng-container matColumnDef="name">
+      <ng-container matColumnDef="marca">
         <th mat-header-cell *matHeaderCellDef>Marca</th>
         <td mat-cell *matCellDef="let row">{{row.marca}}</td>
       </ng-container>
   
       <ng-container matColumnDef="modelo">
         <th mat-header-cell *matHeaderCellDef>Modelo</th>
-        <td mat-cell *matCellDef="let row">R$ {{row.modelo}}</td>
+        <td mat-cell *matCellDef="let row">{{row.modelo}}</td>
       </ng-container>
   
       <ng-container matColumnDef="versao">
         <th mat-header-cell *matHeaderCellDef>Versão</th>
-        <td mat-cell *matCellDef="let row">R$ {{row.versao}}</td>
+        <td mat-cell *matCellDef="let row">{{row.versao}}</td>
       </ng-container>
   
       <ng-container matColumnDef="preco">
@@ -29,7 +29,7 @@
   
       <ng-container matColumnDef="cor">
         <th mat-header-cell *matHeaderCellDef>Cor</th>
-        <td mat-cell *matCellDef="let row">R$ {{row.cor}}</td>
+        <td mat-cell *matCellDef="let row">{{row.cor}}</td>
       </ng-container>
 
       <ng-container matColumnDef="action">

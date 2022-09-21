@@ -31,6 +31,7 @@ export class CarrosGetComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
     this.carroService.get().subscribe((response) => {
+      console.log(response);
       this.dataSource.data = response
       this.table.dataSource = this.dataSource;
     });

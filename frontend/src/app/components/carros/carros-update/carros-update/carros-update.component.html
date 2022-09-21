@@ -1,1 +1,47 @@
-<p>carros-update works!</p>
+<mat-card>
+    <mat-card-title>
+        Alterar Produto
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <mat-label>Selecione uma opção</mat-label>
+            <mat-select name="marca" [(value)]="carro.marca" [(ngModel)]="carro.marca">
+                <mat-option value="Toyota">Toyota</mat-option>
+                <mat-option value="Ford">Ford</mat-option>
+                <mat-option value="Wolksvagem">Wolksvagem</mat-option>
+                <mat-option value="Nissan">Nissan</mat-option>
+                <mat-option value="Kia">Kia</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Modelo" name="modelo" [(ngModel)]="carro.modelo">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input matInput placeholder="Versão" name="versao" [(ngModel)]="carro.versao">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" name="preco" [(ngModel)]="carro.preco">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <mat-label>Selecione uma opção</mat-label>
+            <mat-select name="cor" [(value)]="carro.cor" [(ngModel)]="carro.cor">
+                <mat-option value="Branco">Branco</mat-option>
+                <mat-option value="Preto">Preto</mat-option>
+                <mat-option value="Cinza">Cinza</mat-option>
+                <mat-option value="Azul">Azul</mat-option>
+                <mat-option value="Vermelho">Vermelho</mat-option>
+                <mat-option value="Amarelo">Amarelo</mat-option>
+            </mat-select>    
+        </mat-form-field>
+    </form>
+    <button mat-raised-button color="primary" (click)="updateCarro()">
+        Alterar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

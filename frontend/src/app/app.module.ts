@@ -31,6 +31,7 @@ import { CarrosGetComponent } from './components/carros/carros-get/carros-get/ca
 import { CarrosUpdateComponent } from './components/carros/carros-update/carros-update/carros-update.component';
 import { CarrosCreateComponent } from './components/carros/carros-create/carros-create/carros-create.component';
 import { CarrosDeleteComponent } from './components/carros/carros-delete/carros-delete/carros-delete.component';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { CarrosDeleteComponent } from './components/carros/carros-delete/carros-
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
+    MatSelectModule,
     MatTableModule,
     MatPaginatorModule,
     MatSortModule

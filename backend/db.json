@@ -23,10 +23,7 @@
       "modelo": "Conversível",
       "versao": "Top de Linha",
       "preco": 99999.89,
-      "cor": "Preto",
-      "alarme": true,
-      "airbag": true,
-      "teto_solar": true
+      "cor": "Preto"
     },
     {
       "id": 2,
@@ -34,10 +31,23 @@
       "modelo": "Sedan",
       "versao": "Antigo",
       "preco": 69999.89,
+      "cor": "Cinza"
+    },
+    {
+      "marca": "Nissan",
+      "modelo": "Sedan",
+      "versao": "192",
+      "preco": "199.99",
       "cor": "Cinza",
-      "alarme": false,
-      "airbag": true,
-      "teto_solar": false
+      "id": 4
+    },
+    {
+      "marca": "Wolksvagem",
+      "modelo": "123",
+      "versao": "123",
+      "preco": "OI",
+      "cor": "Preto",
+      "id": 5
     }
   ]
 }

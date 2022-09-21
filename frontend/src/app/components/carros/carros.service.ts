@@ -17,8 +17,30 @@ export class CarrosService {
     return this.httpClient.get<Carro[]>(this.baseUrl);
   }
 
-  getById(id: string): Observable<Carro> {
+  getById(id: any): Observable<Carro> {
     const url: string = `${this.baseUrl}/${id}`;
     return this.httpClient.get<Carro>(url);
+  }
+
+  post(carro: any): Observable<Carro> {
+    return this.httpClient.post<Carro>(this.baseUrl, carro);
+  }
+
+  put(carro: any): Observable<Carro> {
+    const url: string = `${this.baseUrl}/${carro.id}`;
+    return this.httpClient.put<Carro>(url, carro);
+  }
+
+  delete(id: any): Observable<Carro> {
+    const url: string = `${this.baseUrl}/${id}`;
+    return this.httpClient.delete<Carro>(url);
+  }
+
+  showMessage(msg: string): void {
+    this.snackBar.open(msg, 'x', {
+      duration: 3000,
+      horizontalPosition: "right",
+      verticalPosition: "top"
+    });
   }
 }
