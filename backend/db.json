@@ -29,15 +29,15 @@
       "id": 1
     },
     {
-      "marca": "Toyota",
-      "modelo": "123",
+      "marca": "Wolksvagem",
+      "modelo": "321",
       "versao": "123",
-      "preco": "123321",
-      "cor": "Cinza",
+      "preco": "13.99",
+      "cor": "Azul",
       "alarme": true,
       "airbag": false,
-      "teto_solar": true,
-      "id": 3
+      "teto_solar": false,
+      "id": 2
     }
   ]
 }
