@@ -68,6 +68,7 @@ export class ProductGetComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
     this.productService.get().subscribe((response) => {
       this.dataSource.data = response
+      console.log(response);
       this.table.dataSource = this.dataSource;
     });
   }

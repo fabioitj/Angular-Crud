@@ -1,0 +1,14 @@
+.full-width-table {
+    width: 100%;
+  }
+  
+  .edit i, .delete i{
+    color: #C2175B;
+    cursor: pointer;
+  }
+
+  .edit {
+    margin-right: 10px;
+  }
+
+  

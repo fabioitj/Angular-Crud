@@ -39,5 +39,11 @@
       "teto_solar": false,
       "id": 2
     }
+  ],
+  "categorias": [
+    {
+      "id": 2,
+      "descricao": "Alimentício"
+    }
   ]
 }

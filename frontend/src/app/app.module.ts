@@ -33,6 +33,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DialogConfigComponent } from './components/dialogs/dialog-config/dialog-config.component';
+import { CategoriasCrudComponent } from './views/categorias-crud/categorias-crud/categorias-crud.component';
+import { CategoriasGetComponent } from './components/categorias/categorias-get/categorias-get.component';
+import { CategoriasSaveComponent } from './components/categorias/categorias-save/categorias-save.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +53,10 @@ import { DialogConfigComponent } from './components/dialogs/dialog-config/dialog
     CarrosGetComponent,
     CarrosUpdateComponent,
     CarrosCreateComponent,
-    DialogConfigComponent
+    DialogConfigComponent,
+    CategoriasCrudComponent,
+    CategoriasGetComponent,
+    CategoriasSaveComponent
   ],
   imports: [
     BrowserModule,
